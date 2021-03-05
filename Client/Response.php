@@ -54,7 +54,7 @@ class Response
 
     public function getSecureHtml()
     {
-        return $this->body->get('3DSECUREHTML');
+        return $this->body->get('REDIRECTHTML');
     }
 
     public function getAlias()
